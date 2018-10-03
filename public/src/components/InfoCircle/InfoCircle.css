@@ -1,0 +1,25 @@
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+}
+
+.info-circle {
+  border: 2px solid var(--black);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.info-label {
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  font-weight: 300;
+}
